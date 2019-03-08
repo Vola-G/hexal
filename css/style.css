@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*========FONTS & TEXT=========*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700');
+
+h2 {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 18px;
+    color: #d7fcf5;
+}
+
+.subtitle {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 14px;
+    color: #20816d;
+}
+
+p {
+    color: white;
+    font-family: 'Lato', 'Arial Narrow', sans-serif;
+    font-size: 12px;
+}
+
+
+.info > p {
+    color: #d7fcf5;
+}
+
+
+body {
+    width: 1020px;
+    margin: auto;
+    color: white;
+    font-family: 'Lato', 'Arial Narrow', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 63px;
+    background-color: #323232;
+    position: relative;
+}
+
+header::after {
+    content: "";
+    width: 0;
+	height: 0;
+    border-left: 48px solid transparent;
+    border-right: 48px solid transparent;
+    border-top: 27px solid #323232;
+    position: absolute;
+    left: 45.2%;
+    bottom: 0;
+    top: 63px;
+}
+
+/*========NAVIGATION=========*/
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 5px;
+    padding-left: 5px;
+
+}
+
+nav > a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px 11px;
+    font-size: 10px;
+}
+nav > a.active {
+    color: #2eb398;
+}
+
+.dot {
+    width: 2px;
+    height: 2px;
+    background-color: #484c5f;
+    padding: 0;
+    margin-top: 2px;
+}
+
+nav > a:hover {
+    text-decoration: none;
+    color: #2eb398;
+}
+
+.logo {
+    margin-top: 5px;
+    padding-right: 28px;
+    padding-left: 26px;
+}
+
+/*========SLIDER WITH HEXAGONS=========*/
+
+.row-first {
+    display: flex;
+    justify-content: center;
+}
+
+.row-second,
+.row-third  {
+    display: flex;
+    justify-content: center;
+    margin-top: -60px;
+}
+
+.hexagon {
+    width: 180px; 
+    height: 210px;
+    margin: 10px;
+    transform: rotate(120deg);
+    overflow: hidden;
+    visibility: hidden;
+    display: inline-block;
+}
+  
+.hex-layer-1 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.hex-layer-2 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: visible;
+
+}
+
+/* hexagon pictures */
+
+.pic-1 {
+    background-image: url("../assets/pic1.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.pic-2 {
+    background-image: url("../assets/pic2.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.pic-3 {
+    background-image: url("../assets/pic3.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.pic-4 {
+    background-image: url("../assets/pic4.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.pic-5 {
+    background-image: url("../assets/pic5.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.pic-6 {
+    background-image: url("../assets/pic6.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.pic-7 {
+    background-image: url("../assets/pic7.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.pic-8 {
+    background-image: url("../assets/pic8.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.pic-9 {
+    background-image: url("../assets/pic9.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.pic-10 {
+    background-image: url("../assets/pic10.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.pic-11 {
+    background-image: url("../assets/pic11.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.pic-12 {
+    background-image: url("../assets/pic12.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.pic-13 {
+    background-image: url("../assets/pic13.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+/*========SECTION ABOUT=========*/
+
+.about {
+    background-color: #2eb398;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portrait {
+    background-image: url("../assets/Smith_Andersen_photo.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin: 20px;
+}
+
+.container-about {
+
+}
+
+.info {
+    width: 580px;
+}
