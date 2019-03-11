@@ -11,18 +11,24 @@
 
 <body>
     <header>
+        <h1 class="hidden">Smith Anderson - Illustrator & Character Designer</h1>
         <nav>
-            <a href="#" class="active">portfolio</a>
+            <a href="#portfolio" class="active">portfolio</a>
             <span class="dot"></span>
-            <a href="#">about</a>
+            <a href="#about">about</a>
             <a href="#" class="logo"> <img src="assets/image/logo.png" alt="hexal-logo"></a>
             <a href="#">blog</a>
             <span class="dot"></span>
-            <a href="#">get in touch</a>
+            <a href="#get-in-touch">get in touch</a>
         </nav>
     </header>
     <main>
-        <section class="slider">
+        <section id="portfolio">
+            <div class="portfolio-decor-lines">
+                <span class="line-left"></span>
+                <span class="line-right"></span>
+                <span class="line-bottom"></span>
+            </div>
             <div class="hexagon-container">
                 <div class="row-first">
                     <div class="hexagon">
@@ -96,38 +102,51 @@
                     </div>
                 </div>
             </div>
+            <div class="slider-dotnav">
+                <ul>
+                    <li><a href="#" class="slide-item"></a></li>
+                    <li><a href="#" class="slide-item"></a></li>
+                    <li><a href="#" class="slide-item active-item"></a></li>
+                    <li><a href="#" class="slide-item"></a></li>
+                    <li><a href="#" class="slide-item"></a></li>
+                    <li><a href="#" class="slide-item"></a></li>
+                </ul>
+            </div>
         </section>
-        <section class="about">
+        <section id="about">
             <div class="container-about">
                 <div class="photo">
-                    <div class="hexagon">
-                        <div class="hex-layer-1">
-                            <div class="hex-layer-2 photo-img"></div>
+                    <div class="photo-hexagon">
+                        <div class="photo-hex-layer-1">
+                            <div class="photo-hex-layer-2 photo-img"></div>
                         </div>
                     </div>
                 </div>
                 <div class="info">
                     <h2>Smith Anderson</h2>
-                    <p class="subtitle">Illustrator & Character Designer</p>
+                    <p class="subtext">Illustrator & Character Designer</p>
                     <p class="info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh
                         at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer
                         gravida, diam congue molestie fringilla, elit odio rhon-<br>cus turpis, ac dictum libero elit vel
                         metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis
                         tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
                         <ul class="social-buttons">
-                            <li><a href=""><i class="icon-facebook"></i></a></li>
-                            <li><a href=""><i class="icon-twitter"></i></a></li>
-                            <li><a href=""><i class="icon-gplus"></i></a></li>
-                            <li><a href=""><i class="icon-pinterest"></i></a></li>
-                            <li><a href=""><i class="icon-linkedin"></i></a></li>
-                            <li><a href=""><i class="icon-dribbble"></i></a></li>
+                            <li><a href="" class="social-item" title="Follow me on Facebook" target="_blank"><i class="icon-facebook"></i></a></li>
+                            <li><a href="" class="social-item" title="Follow me on Twitter" target="_blank"><i class="icon-twitter"></i></a></li>
+                            <li><a href="" class="social-item" title="Follow me on G+" target="_blank"><i class="icon-gplus"></i></a></li>
+                            <li><a href="" class="social-item" title="Follow me on Pinterest" target="_blank"><i class="icon-pinterest"></i></a></li>
+                            <li><a href="" class="social-item" title="Follow me on LinkedIn" target="_blank"><i class="icon-linkedin"></i></a></li>
+                            <li><a href="" class="social-item" title="Follow me on Dribbble" target="_blank"><i class="icon-dribbble"></i></a></li>
                         </ul>
                 </div>
             </div>
         </section>
-        <section class="get-in-touch">
+        <section id="get-in-touch">
+            <div class="git-decor-lines"></div>
+            <span class="git-line-top"></span>
+            <span class="git-line-bottom"></span>
             <div class="container">
-                <h2>Get In Touch</h2>
+                <h3>Get In Touch</h3>
                 <p class="contacts-subtitle">In order to get in touch use the contact form below:</p>
             <div class="contacts-container">
                 <form action="#">
