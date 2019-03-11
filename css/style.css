@@ -316,6 +316,7 @@ nav > a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 
 }
 
@@ -323,10 +324,26 @@ nav > a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-left: 1px solid #219d84;
-    border-right: 1px solid #219d84;
     padding: 54px 100px;
 
+}
+
+.about-line-left {
+    background-color: #219d84;
+    height: 316px;
+    width: 1px;
+    position: absolute; 
+    left: 100px;
+    top: 10px;
+}
+
+.about-line-right {
+    background-color: #219d84;
+    height: 316px;
+    width: 1px;
+    position: absolute; 
+    right: 100px;
+    top: 10px;
 }
 
 .photo {
